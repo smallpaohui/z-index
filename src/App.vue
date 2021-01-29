@@ -8,9 +8,6 @@
 
   export default {
     name: 'App',
-    created () {
-      console.log('22222')
-    }
   }
 </script>
 
@@ -18,5 +15,6 @@
   #app {
     padding: 0;
     margin: 0;
+    list-style: none;
   }
 </style>

@@ -1,9 +1,13 @@
+import { $get, $post } from './axios'
+
 export default Vue => {
   Vue.mixin({
     data () {
-      return {
-        BASE_URL: 'XXXX',
-      }
+      return {}
+    },
+    methods: {
+      $get,
+      $post,
     },
   })
 }
